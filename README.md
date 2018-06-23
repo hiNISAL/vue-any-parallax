@@ -26,5 +26,38 @@ new Vue({
   el: '#app',
   render: h => h(App)
 });
+```
 
 ```
+<template>
+  <div>
+    <vap>
+      ....
+    </vap>
+
+    <custom-name>
+      ...
+    </custom-name>
+  </div>
+</template>
+```
+
+## Props
+
+- `speed` - the transition duration.
+  -  default: 100(ms)
+
+-  `distance` - move distance
+  - default: 100
+
+- `reverse` - the offset direction
+  - default: true
+
+- `display` - the display of element
+  - default: 'block'
+
+- `timingFunction` - the timing-function of transition
+  - default: 'cubic-bezier(0.960, 1.005, 0.885, 1.035)'
+
+- `el` - The DOM element witch need bind the `mousemove` event
+  - default: window
