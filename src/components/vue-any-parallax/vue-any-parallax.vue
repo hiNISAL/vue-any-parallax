@@ -32,6 +32,10 @@ export default {
     timingFunction: {
       default: 'cubic-bezier(0.960, 1.005, 0.885, 1.035)',
       type: String
+    },
+    use: {
+      default: undefined,
+      type: Boolean
     }
   },
   data() {
@@ -50,7 +54,7 @@ export default {
   methods: {
     bind() {
       this.el.addEventListener('mousemove', e => {
-        
+        if (!this.use) return;
         const { clientX, clientY } = e;
 
         let wRate = -((clientX / document.documentElement.clientWidth) - 0.5);

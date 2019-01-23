@@ -45,9 +45,9 @@ new Vue({
 ## Props
 
 - `speed` - the transition duration.
-  -  default: 100(ms)
+  - default: 100(ms)
 
--  `distance` - move distance
+- `distance` - move distance
   - default: 100
 
 - `reverse` - the offset direction
