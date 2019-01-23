@@ -34,7 +34,7 @@ export default {
       type: String
     },
     use: {
-      default: undefined,
+      default: true,
       type: Boolean
     }
   },

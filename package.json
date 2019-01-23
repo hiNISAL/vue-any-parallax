@@ -1,6 +1,6 @@
 {
   "name": "vue-any-parallax",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Simple parallax component for vue",
   "main": "src/components/vue-any-parallax/index.js",
   "scripts": {
